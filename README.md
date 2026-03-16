@@ -9,7 +9,7 @@
 
 👉 **Streamlit App**
 
-https://ai-nexus-studio-v2-7jgdsuwfzkbszekfrrfry.streamlit.app
+https://ai-nexus-studio-v2-7jgdssuwfzkbszekfrrfry.streamlit.app/
 
 ---
 
