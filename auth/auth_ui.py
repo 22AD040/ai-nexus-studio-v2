@@ -96,10 +96,10 @@ def auth_page():
     </style>
     """, unsafe_allow_html=True)
 
-    # LOGO (no assets folder needed)
+
     logo_url = "https://cdn-icons-png.flaticon.com/128/18111/18111997.png"
 
-    # CENTER LOGO
+
     col1, col2, col3 = st.columns([3,1,3])
 
     with col2:
@@ -108,10 +108,10 @@ def auth_page():
         st.image(logo_url, width=170)
         st.markdown('</div>', unsafe_allow_html=True)
 
-    # TITLE
+
     st.markdown("<div class='title'>AI Nexus Studio v2</div>", unsafe_allow_html=True)
 
-    # CENTER LOGIN CARD
+
     left, center, right = st.columns([3,2,3])
 
     with center:

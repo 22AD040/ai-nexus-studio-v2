@@ -15,7 +15,7 @@ def data_page():
 
         df = pd.read_csv(file)
 
-        # ---------------- DATASET OVERVIEW ---------------- #
+
 
         st.subheader("📌 Dataset Overview")
 
@@ -54,7 +54,6 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- DATA PREVIEW ---------------- #
 
         st.subheader("Preview Data")
 
@@ -62,7 +61,7 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- COLUMN EXPLORER ---------------- #
+
 
         st.subheader("🔍 Column Explorer")
 
@@ -73,7 +72,7 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- VISUALIZATIONS ---------------- #
+
 
         st.subheader("📊 Visualizations")
 
@@ -107,7 +106,7 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- CORRELATION HEATMAP ---------------- #
+
 
         st.subheader("🔥 Correlation Heatmap")
 
@@ -131,11 +130,9 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- DATA CLEANING ---------------- #
 
         st.subheader("🧹 Data Cleaning Tools")
 
-        # -------- Remove Missing Values -------- #
 
         if st.button("Remove Missing Values"):
 
@@ -166,7 +163,7 @@ def data_page():
             else:
                 st.info("No missing values found in dataset")
 
-        # -------- Remove Duplicate Rows -------- #
+
 
         if st.button("Remove Duplicate Rows"):
 
@@ -192,7 +189,6 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- AI INSIGHTS ---------------- #
 
         st.subheader("🧠 AI Data Insights")
 
@@ -220,7 +216,7 @@ def data_page():
 
         st.markdown("---")
 
-        # ---------------- DOWNLOAD CLEAN DATA ---------------- #
+
 
         st.subheader("📥 Download Clean Dataset")
 

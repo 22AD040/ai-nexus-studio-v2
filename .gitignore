@@ -1,39 +1,39 @@
-# Python
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.db
 
-# Virtual Environment
+
 venv/
 .env/
 .env
 
-# Environment variables
+
 .env.local
 
-# Database
+
 users.db
 *.sqlite3
 
-# Streamlit secrets
+
 .streamlit/secrets.toml
 
-# OS files
+
 .DS_Store
 Thumbs.db
 
-# IDE
+
 .vscode/
 .idea/
 
-# Logs
+
 *.log
 
-# Model cache
+
 cache/
 models/
 
-# Torch cache
+
 ~/.cache/torch
